@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/menu.unity
+    guid: b1f20835315b2e34dacb0bc58af632e8
+  - enabled: 1
+    path: Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Assault_Rifle_01_Demo/Game_Demo.unity
+    guid: 5923bb0107620bc46b2727a5d3f12141
   m_configObjects: {}
