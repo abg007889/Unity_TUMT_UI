@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour {
         //yield return new WaitForSeconds(1);
         //print("test 2");
 
-        AsyncOperation ao = SceneManager.LoadSceneAsync("Game_Demo");
+        AsyncOperation ao = SceneManager.LoadSceneAsync("gameScene");
         ao.allowSceneActivation = false;
 
         while(ao.isDone == false)
@@ -44,5 +44,15 @@ public class GameManager : MonoBehaviour {
             }
         }
 
+    }
+
+    public void Replay()
+    {
+        SceneManager.LoadScene("menu");
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }
